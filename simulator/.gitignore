@@ -1,0 +1,92 @@
+# ========================
+# .NET Build Artifacts
+# ========================
+bin/
+obj/
+out/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+packages/
+nuget.config.lock.json
+
+# MSBuild
+[Ll]og/
+[Ll]ogs/
+
+# ========================
+# JetBrains Rider / ReSharper
+# ========================
+.idea/
+*.sln.iml
+_ReSharper*/
+*.ReSharper
+*.dotCover
+*.DotSettings.user
+
+# ========================
+# Visual Studio
+# ========================
+.vs/
+*.rsuser
+*.vsp
+*.vspx
+*.sap
+*.ncb
+*.aps
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ========================
+# Windows
+# ========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ========================
+# Test Results & Coverage
+# ========================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# ========================
+# Runtime & App Data
+# ========================
+*.log
+*.trace
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# ========================
+# Deployment / Publish
+# ========================
+**/Properties/launchSettings.json

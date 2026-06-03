@@ -1,0 +1,26 @@
+# Build output
+**/bin/
+**/obj/
+
+# IDE / Editor
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.*
+
+# Rider
+*.sln.iml
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# dotnet tools
+.dotnet/
+
+# User secrets
+secrets.json
